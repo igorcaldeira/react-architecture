@@ -7,6 +7,8 @@ A estrutura inicial parte do [Create React App](https://github.com/facebook/crea
 
 Uma das características mais interessantes de trabalhar com uma biblioteca como o react é ter a liberade de adotar inúmeras estruturas de acordo com o objetivo proposto. Este projeto é uma sugestão de uma estrutura que escala bem e é ótimo para projetos comerciais.
 
+## Visão geral
+
 ## Estrutura
 
 Segue abaixo uma listagem das pastas que estão a nível da raiz `/src` do projeto, assim como uma descrição do objetivo da mesma.
