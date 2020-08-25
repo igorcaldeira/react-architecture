@@ -35,8 +35,9 @@ Exemplo: Input de texto, input de número e wrapper/containers de formulários.
 Seção de componentes focada em layout.
 
 Exemplo:
-- Layout/Wrapper da área publica do sitema (que contém  Login / Esqueci minha senha/Primeiro cadastro e afins);
-- Layout/Wrapper da área restrita do sistema (que contém Dashboard / Páginas internas e agins) 
+
+- Layout/Wrapper da área publica do sitema (que contém Login / Esqueci minha senha/Primeiro cadastro e afins);
+- Layout/Wrapper da área restrita do sistema (que contém Dashboard / Páginas internas e agins)
 
 #### 1.2 - Components > Structure
 
@@ -49,11 +50,11 @@ Exemplo: Botões, Janelas/Modal, Menu, Linha do tempo, Cards, Tabelas;
 Pasta para componentes reutilizáveis em um contexto.
 Esta seção somente comporta múltiplos diretórios.
 
-#### 1.2 - Components > Contexts > [Context] 
+#### 1.2 - Components > Contexts > [Context]
 
 Pasta de componentes de um contexto.
 
-Exemplo: 
+Exemplo:
 
 #### 3 - Constants
 
@@ -61,7 +62,7 @@ Arquivos JSON que tenham grandes coleções de constantes utilizadas no projeto.
 
 Exeplo de arquivos encontrados aqui:
 
-- `endpoints.js` como a relação de endpoints que a aplicação acessa; 
+- `endpoints.js` como a relação de endpoints que a aplicação acessa;
 - `menu.js` como a relação das opções disponíveis no menu;
 - `routes.js` como a relação de rotas disponíveis no sistema;
 
@@ -83,6 +84,6 @@ Exemplo de arquivos encontrados aqui:
 
 #### 8 - Store
 
-#### 9 - Utils
+#### 9 - Services
 
-
+#### 10 - Providers
