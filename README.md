@@ -16,6 +16,8 @@ Estas estruturas podem ter subpastas, as mesmas serão descritas em subtópicos.
 
 #### 1 - Assets
 
+A pasta onde se localiza arquivos de detalhes da aplicação.
+
 #### 1.1 - Assets > Icons
 
 #### 1.2 - Assets > Images
@@ -37,7 +39,7 @@ Seção de componentes focada em layout.
 Exemplo:
 
 - Layout/Wrapper da área publica do sitema (que contém Login / Esqueci minha senha/Primeiro cadastro e afins);
-- Layout/Wrapper da área restrita do sistema (que contém Dashboard / Páginas internas e agins)
+- Layout/Wrapper da área restrita do sistema (que contém Dashboard / Páginas internas e afins)
 
 #### 1.2 - Components > Structure
 
@@ -78,12 +80,39 @@ Exemplo de arquivos encontrados aqui:
 
 #### 5 - Lib
 
+Neste diretório ficam arquivos relacionados a funções ou metodos que auxiliam ou automatizam tarefas.
+
 #### 6 - Locales
+
+Neste diretório ficam arquivos relacionados a internacionalização das pages.
+
+Exemplo de arquivos encontrados aqui:
+
+- `en.json` um arquivo json titulos, subtitulos, preview em inglês;
+- `es.json` um arquivo json titulos, subtitulos, preview em espanhol;
 
 #### 7 - Pages
 
+Arquivos jsx que exportam componentes referentes a uma paginas a ser renderizada pelo navegador em uma rota especifica.
+
 #### 8 - Store
+
+O diretório Store é onde fica armazenada toda a gerência de estado da aplicação. Nela são armazenados os `ducks` e os `sagas`. É interessante salvar cada `duck` e `sagas` em seu diretório correspondente, por exemplo:
+
+- `auth/auth.ducks.js` esse arquivo javascript é responsável por exportar as `actions`, `reducer` e os `types` referentes a autenticação;
+- `auth/auth.sagas.js` esse arquivo javaScript é responsavel por exportar funcões que fazem sentido no dominio do login, como por exemplo, `signIn`;
 
 #### 9 - Services
 
+Arquvios javascript que exportam conexões com API's. Como por exemplo:
+
+- `api.js` se refere a api consumida pelo front end;
+- `webSocket.js` se refere ao sonsumo de algum websocket pelo front end;
+- `otherAPI.js` se refere a qualquer outra API de terceiros por exemplo API do google
+
 #### 10 - Providers
+
+Arquivos que servem como um Wrapper para toda a aplicação. Como por exemplo:
+
+- `ThemeProvider` é um provedor de tema para a aplicação;
+- `IntlProvider` é um provedor de internacionalização para a aplicação;
