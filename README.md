@@ -97,7 +97,7 @@ Arquivos jsx que exportam componentes referentes a uma paginas a ser renderizada
 
 #### 8 - Store
 
-O diretório Store é onde fica armazenada toda a gerência de estado da aplicação. Nela é são armazenados os `ducks` e os `sagas`. É interessante salvar cada `duck` e `sagas` em seu diretório correspondente, por exemplo:
+O diretório Store é onde fica armazenada toda a gerência de estado da aplicação. Nela são armazenados os `ducks` e os `sagas`. É interessante salvar cada `duck` e `sagas` em seu diretório correspondente, por exemplo:
 
 - `auth/auth.ducks.js` esse arquivo javascript é responsável por exportar as `actions`, `reducer` e os `types` referentes a autenticação;
 - `auth/auth.sagas.js` esse arquivo javaScript é responsavel por exportar funcões que fazem sentido no dominio do login, como por exemplo, `signIn`;
